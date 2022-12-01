@@ -1,0 +1,62 @@
+.cAimg {
+    /* <!-- 이미지 가운데 정렬    width: 이미지 크기 결정 --> */
+    display: block; 
+    margin-left:auto;
+    margin-right: auto;
+}
+.Abutton {
+    /* 버튼가운데 정렬 */
+    margin:auto; 
+    display:block; 
+    /* ★★★가로행 전부 차지!  div는 자체 속성임*/
+}
+.AStrong {
+    font-weight: 1000;
+}
+.A2Strong{
+    text-align: center;
+}
+/* Style 1000점 ID 100점 Class 10점 p 1점 */
+
+.container {
+    width: 800px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.right-muen{
+    width: 20%;
+    height: 500px;
+    background-color: antiquewhite;
+    float: left;
+    /* float: 방향; 👉붕 띄우기 */
+}
+.left-list{
+    width: 80%;
+    height: 500px;
+    background-color: aquamarine;
+    float: right;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    clear: both;
+}
+.right-inlineT{
+    width: 20%;
+    height: 200px;
+    background-color:brown;
+    display: inline-block;
+    vertical-align: top;
+}
+.left-inlineT{
+    width: 80%;
+    height: 200px;
+    background-color:beige;
+    display: inline-block;
+    vertical-align: top;
+}
