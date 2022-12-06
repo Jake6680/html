@@ -1,0 +1,48 @@
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../올케어.png);
+    background-size: contain;
+    background-position: center;
+    /* cover div박스에 채워라 */
+    /* contain 이미지 짤리면 안된다! */
+    background-repeat: no-repeat;
+    /* 이미지 반복X */
+    padding: 1px;
+    /* ☝margin collapse 현상 제거  */
+    text-align: center;
+    position: relative;
+}
+.main-head {
+    margin-top: 80px;
+    color: darkblue;
+}
+.main-state {
+    color: darkblue;
+    background-color: black;
+    background: rgba( 0, 0, 0, 0.1);
+}
+.main-button button{
+    position: relative;
+    /* ☝relative 기준을 잡는 속성 */
+    /* ++공중에 뜬다 float 랑 비슷함 */
+    top: -150px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    color: darkblue;
+    font-weight: 100;
+    font-family: "Malgun Gothic";
+    padding: 10px;
+}
+.main-contain {
+    width: 500px;
+    height: 300px;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 350px;
+    background: rgba( 0, 0, 0, 0.3);
+}
