@@ -1,0 +1,39 @@
+div {
+    box-sizing: border-box;
+    /* 눈에 보이는 곳에서!*/
+}
+body{
+    margin: 0px;
+    background-color:darkslategray;
+    
+}
+/* 기초로 쓰면 좋은것들 */
+
+.main-box{
+    width: 40%;
+    height: 500px;
+    background-color: white;
+    padding: 1px;
+    margin: auto;
+}
+input[type=email]{
+    padding: 5px;
+    width: 250px;
+    border-color: brown;
+}
+input[type=text]{
+    width: 120px;
+    display: inline-block;
+}
+.main-butty{
+    padding: 30px;
+}
+strong{
+    display: block;
+    padding: 5px;
+    font-size: 30px;
+}
+p {
+
+    font-size: 15px;
+}
