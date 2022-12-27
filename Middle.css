@@ -1,0 +1,160 @@
+td, th {
+    border-bottom: 1px solid #ACCEE5;
+    vertical-align: middle;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+body{
+    margin: 0px;
+    font-family: Helvetica;
+    color: #14476b;
+}
+
+
+
+.shop-table th:nth-child(2){
+ /* th 2번째 있는 아이를 선택함 */
+ /* width:100% 이런식으로 설정! */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+thead, tbody{
+    text-align: right;
+}
+tbody{
+    color: #86a9c28e;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+h3{
+    line-height: 0px;
+}
+p{
+    line-height: 13px;
+}
+div, input, textarea {
+    box-sizing: border-box;
+    /* 눈에 보이는 곳에서!*/
+}
+.shop-main{
+    width: 100%;
+    height: 900px;
+    margin: auto;
+    background-color: #ACCEE5;
+}
+.shop-cart{
+    width: 100%;
+    height: 100%;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.shop-table{
+    width: 90%;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px
+}
+.w-60{
+    width: 60%;
+}
+.w-10{
+    width: 10%;
+}
+.w-15{
+    width: 15%;
+}
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
+.w-100{
+    width: 90%;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.shop-table-img{
+    width: 100%;
+    height: 90px;
+}
+.p-t-15{
+    padding-top: 15px;
+}
+.p-t-30{
+    padding-top: 30px;
+}
+.h-100px{
+    height: 100px;
+}
+.c-black{
+    color: black;
+}
+.price-strong{
+    color: #004b81; 
+    font-weight: 700;
+}
+.flo-left{
+    float: left;
+}
+.flo-right{
+    float: right;
+}
+.shop-buybutton{
+    background-color: #004b81;
+    color: white;
+    vertical-align: middle;
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* 호빠아아아아 */
+.shop-buybutton:hover {
+    background-color: #ACCEE5;
+}
+.shop-buybutton:focus{
+    background-color: bisque;
+}
+.shop-buybutton:active{
+    background-color: aqua;
+}
+/* 순서가 진짜 중요함!!!!!!!!! */
+/* 수도클래스! 입니돠! */
+
+
+
+
+.shop-fot{
+    width: 90%;
+    height: 100px;
+}

@@ -1,9 +1,10 @@
-div {
+div, input, textarea {
     box-sizing: border-box;
     /* 눈에 보이는 곳에서!*/
 }
 body{
     margin: 0px;
+    padding: 10px;
     background-color:darkslategray;
     
 }
@@ -15,14 +16,18 @@ body{
     background-color: white;
     padding: 1px;
     margin: auto;
+    
 }
 input[type=email]{
     padding: 5px;
-    width: 250px;
-    border-color: brown;
+    width: 100%;
+    /* width 100% 할때 유용한 기능 */
+}
+.w-100{
+    padding: 10px;
 }
 input[type=text]{
-    width: 120px;
+    width: 100%;
     display: inline-block;
 }
 .main-butty{
@@ -34,6 +39,37 @@ strong{
     font-size: 30px;
 }
 p {
-
+    padding-top: 25px;
+    line-height: 0;
+    display: inline-block;
     font-size: 15px;
+}
+.w-50{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+input[type=button]{
+    background-color: orange;
+    border: 0;
+    color: white;
+    width: 100%;
+}
+.main-p-Last{
+    position: relative;
+    left: 65px;
+}
+.main-Last-text{
+    position: relative;
+    left: 18px;
+}
+.w-70{
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+.w-30{
+    width: 30%;
+    float: left;
+    padding: 10px;
 }
